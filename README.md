@@ -89,31 +89,18 @@ The evaluation scripts are included in the `eval/` directory. However, the custo
 
 The reported results were obtained using an internal evaluation dataset and reflect the tested configuration. The evaluation scripts are provided for reference and further experimentation.
 
-The final evaluation configuration achieved:
+### Evaluation Results
 
-Metric
+The final evaluation configuration achieved the following results:
 
-Result
+| Metric | Result |
+|:--|--:|
+| Answer Accuracy | **94%** |
+| Source & Page Accuracy | **94%** |
+| Refusal Accuracy | **100%** |
+| Retrieval MRR | **0.941** |
 
-Answer Accuracy
-
-94%
-
-Source & Page Accuracy
-
-94%
-
-Refusal Accuracy
-
-100%
-
-Retrieval MRR
-
-0.941
-
-These results reflect the tested evaluation dataset and configuration.
-
-Evaluation scripts are available in the eval/ directory.
+<sub>Results are based on the tested evaluation dataset and configuration. They may vary with different documents and questions.</sub>
 
 ## Installation
 
