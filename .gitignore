@@ -1,0 +1,37 @@
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Virtual environment
+.venv/
+venv/
+
+# ChromaDB
+chroma_db/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# PDF files
+*.pdf
+
+# Evaluation files
+eval/results_*.md
+eval/retrieval_*.md
+eval/questions.json
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+
+# Logs
+*.log
