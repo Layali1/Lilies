@@ -199,31 +199,36 @@ Available endpoints:
 ```text
 lilies/
 │
+├── .streamlit/
+│   └── config.toml
+│
 ├── api/
 │   └── main.py
 │
 ├── core/
-│   ├── ingest.py
-│   ├── retrieval.py
+│   ├── __init__.py
 │   ├── graph.py
+│   ├── ingest.py
+│   ├── rerank.py
+│   ├── retrieval.py
 │   ├── timing.py
-│   └── ...
+│   └── utils.py
 │
 ├── eval/
-│   ├── questions.json
-│   ├── evaluate.py
-│   ├── retrieval_eval.py
 │   ├── check_questions.py
+│   ├── evaluate.py
 │   ├── peek.py
-│   └── probe_grader.py
+│   ├── probe_grader.py
+│   └── retrieval_eval.py
 │
 ├── assets/
-│   ├── home.png
-│   ├── arabic-answer.png
-│   ├── english-answer.png
-│   └── api-docs.png
+│   ├── api-docs.jpeg
+│   ├── arabic-answer.jpeg
+│   ├── english-answer.jpeg
+│   └── Not-Find.jpeg
 │
 ├── app.py
+├── sanity_check.py
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
